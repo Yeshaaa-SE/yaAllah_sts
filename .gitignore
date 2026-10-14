@@ -1,0 +1,14 @@
+# Jangan unggah berkas berisi kredensial personal
+.env
+.env.*
+!.env.example
+
+# Dependensi/build file opsional
+vendor/
+node_modules/
+
+# Berkas dari sistem operasi/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
